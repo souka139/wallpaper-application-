@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toosls="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    toosls:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            app:tint="#575757"
+            android:iconTint="#575757"
+            android:title="Home" />
+        <item
+            android:id="@+id/menu_Favorites"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            app:tint="#575757"
+            android:iconTint="#575757"
+            android:title="My Favorites" />
+        <item
+            android:id="@+id/menu_categries"
+            android:icon="@drawable/categorie"
+            app:tint="#575757"
+            android:iconTint="#575757"
+            android:title="Category" />
+
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/menu_profile"
+                app:tint="#575757"
+                app:iconTint="#575757"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/menu_about"
+                app:tint="#575757"
+                android:iconTint="#575757"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="About"/>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Log Out"
+                app:tint="#575757"
+                app:iconTint="#575757"/>
+        </menu>
+    </item>
+
+</menu>

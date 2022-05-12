@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "560805353245",
+    "firebase_url": "https://sweetpapers-aa3f0-default-rtdb.firebaseio.com",
+    "project_id": "sweetpapers-aa3f0",
+    "storage_bucket": "sweetpapers-aa3f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560805353245:android:fc3edb3d0d3df2b97133f4",
+        "android_client_info": {
+          "package_name": "com.soukaina.sweetpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560805353245-iij9uaf6vm99kktc1a5jnpa9fnbbtc52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzr1k9MtgcemzbkshZnK3DH5YmxaAK1vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560805353245-iij9uaf6vm99kktc1a5jnpa9fnbbtc52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

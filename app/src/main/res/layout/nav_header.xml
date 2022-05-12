@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/drawerbg"
+    android:gravity="bottom"
+    android:padding="16dp">
+   <androidx.cardview.widget.CardView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="12dp"
+       app:cardCornerRadius="80dp">
+       <ImageView
+           android:id="@+id/nav_profile_img"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:scaleType="centerCrop"
+           android:src="@mipmap/ic_launcher_round"/>
+   </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/nav_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sweet Papers"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/nav_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="soukainalaaroussi139@gmail.com"
+        android:textColor="@color/white"
+        android:textSize="14dp"/>
+
+</LinearLayout>
